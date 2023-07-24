@@ -1,0 +1,17 @@
+Q1 Why . is used with value typed?
+ans -> it makes the wrapper object of the variable at backend and the process is called autoboxing,then that value after particular operation is given to the value,this process is called auto unboxing.
+
+var x=10 // value
+var x= new Number() // auto boxing
+
+
+Q2 What is null value and where we use it? Hint: typeof
+ans-> null is an empty or unknown value that represents an object doesn't have any reference.
+
+
+Q3 typeof ?
+ans--> an operator which is used to show the type of the operand in form of string.
+Q4 Null vs undefined
+ans--> undefined is a type itself (undefined) while null is an object.
+Q5 == vs ===
+ans--> '==' is a loose equality that compares the content of two types by considering them as of same types and '===' us strict equality operator that compares the two variables and returns true iff they have same value and same type
