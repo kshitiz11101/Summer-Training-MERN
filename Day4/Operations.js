@@ -77,9 +77,7 @@ let emp3=emp.sort((a,b)=>a.salary-b.salary);
 // Q5.In employee salary,add the 10% tax in each employee salary and store in a new array.So don't modify the original array
 // Hint: filter,map
 
-var hike = emp.map(function(employee) {
-  return {salary: employee.salary + (employee.salary * 0.10) };
-});
+var e=emp.map(e=>e.salary+e.salary*0.1)
 
 // Output: 
 // 0: {salary: 2200}
